@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sliceGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-grapheme-clusters@deno/mod.js';
+import sliceGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-grapheme-clusters@v0.1.0-deno/mod.js';
 ```
 
 #### sliceGraphemeClusters( str, start, end )
@@ -98,7 +98,7 @@ The function accepts the following arguments:
 ## Examples
 
 ```javascript
-import sliceGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-grapheme-clusters@deno/mod.js';
+import sliceGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-grapheme-clusters@v0.1.0-deno/mod.js';
 
 console.log( sliceGraphemeClusters( 'Hello World', 0, 5 ) );
 // => 'Hello'
