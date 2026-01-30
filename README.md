@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sliceGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-grapheme-clusters@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-slice-grapheme-clusters/tags). For example,
+
+```javascript
 import sliceGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-grapheme-clusters@v0.1.0-deno/mod.js';
 ```
 
@@ -98,7 +103,7 @@ The function accepts the following arguments:
 ## Examples
 
 ```javascript
-import sliceGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-grapheme-clusters@v0.1.0-deno/mod.js';
+import sliceGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-grapheme-clusters@deno/mod.js';
 
 console.log( sliceGraphemeClusters( 'Hello World', 0, 5 ) );
 // => 'Hello'
