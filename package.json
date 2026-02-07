@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-slice-grapheme-clusters",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Slice a string based on grapheme cluster (i.e., user-perceived character) indices.",
   "license": "Apache-2.0",
   "author": {
@@ -37,12 +37,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-special-fast-max": "^0.3.0",
+    "@stdlib/math-base-special-fast-max": "^0.3.1",
     "@stdlib/string-next-grapheme-cluster-break": "^0.2.2",
     "@stdlib/string-num-grapheme-clusters": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-string": "^0.2.2",
+    "@stdlib/assert-is-string": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
